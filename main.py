@@ -41,7 +41,7 @@ player_move_left = [-4,0]
 
 def create_enemy():
     #enemy_size = (30, 30)
-    enemy = pygame.image.load("enemy.png.").convert_alpha() #pygame.Surface(enemy_size)
+    enemy = pygame.image.load("enemy.png").convert_alpha() #pygame.Surface(enemy_size)
     #enemy.fill(COLOR_BLUE)
     enemy_rect = pygame.Rect(WIDTH,
                              random.randint(enemy.get_height(), HEIGHT - enemy.get_height()),
